@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script src="jsfxr.min.js"></script>
+        <script src="svgcards.js"></script>
+        <script src="cards_and_piles.js"></script>
+        <script src="imgloader.js"></script>
+        <script src="basestate.js"></script>
+        <script src="winning_state.js"></script>
+        <script src="menu_loading_state.js"></script>
+        <script src="game_over_state.js"></script>
+        <script src="pmain.js"></script>
+        <script src="particles.js"></script>
+        <script src="button.js"></script>
+        <script src="levels.js"></script>
+        <script src="tinygame.js"></script>
+    </head>
+    <style>
+    .f {
+        display: flex;
+    }
+    </style>
+    <body>
+        <div class="f">
+            <div>
+                    <canvas id="c"
+                    width="400"
+                    height="600">
+                    </canvas>    
+        
+            </div>
+    
+            <div>
+                    <p>
+                            Remove free cards from the pyramid by cicking on them.
+                            Free cards can move to the bottom pile if the card differs
+                            by one in rank. Suit does not matter.
+                        </p>
+                        <p>
+                            Try to eliminate all of the cards in the pyramid to win.
+                        </p>
+        
+            </div>
+        </div>
+    </body>
+</html>
